@@ -28,6 +28,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 # install system dependencies
 RUN apt-get update && apt-get install -q -y \
         curl \
+        byobu \
         default-jdk \
         gradle \
         python3-pip \
